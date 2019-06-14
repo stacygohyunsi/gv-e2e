@@ -80,10 +80,10 @@ term.singleColumnMenu( CONSTANTS.ITEMS , function( error , response ) {
                                     let seats = input.split(",");
 
                                     let stringUrl = 'https://www.gv.com.sg/GVSeatSelection#/cinemaId/' + cinemaId + '/filmCode/' + movie + '/showDate/'+ dateUsed + '/showTime/'+ timeUsed +'/hallNumber/' + hall;
-                                    startNightwatch();
+                                    startNightwatch(stringUrl, seats);
                                     setInterval(function() {
-                                        startNightwatch();
-                                    }, 60000)
+                                        startNightwatch(stringUrl, seats);
+                                    }, 660000)
                                 });
                                 
                             });
@@ -100,7 +100,7 @@ term.singleColumnMenu( CONSTANTS.ITEMS , function( error , response ) {
 } ) ;
 
 
-function startNightwatch() {
+function startNightwatch(stringUrl, seats) {
     (async function() {
         try {
         await runNightwatch.setup('chrome');
