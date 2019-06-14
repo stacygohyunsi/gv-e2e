@@ -1,0 +1,38 @@
+module.exports = {
+    ITEMS: [
+        "gv bedok", 
+        "gv payar lebar", 
+        "gv tiong bahru", 
+        "gv suntec", 
+        "gv vivo", 
+        "gv plaza", 
+        "gv tampines", 
+        "gv jurong point", 
+        "gv bishan", 
+        "gv city square", 
+        "gv grand, great world city", 
+        "gv katong", 
+        "gv yishun", 
+        "gv@ capitol (stall level 1)", 
+        "gv@ capitol (dress level 3)", 
+        "gv@ capitol (upper circle level 4)"
+    ],
+    CINEMAVALUES : {
+        "gv bedok": "14", 
+        "gv payar lebar": "13", 
+        "gv tiong bahru": "03", 
+        "gv suntec": "12", 
+        "gv vivo": "05", 
+        "gv plaza": "08", 
+        "gv tampines": "09", 
+        "gv jurong point": "04", 
+        "gv bishan": "02", 
+        "gv city square": "11", 
+        "gv grand, great world city": "07", 
+        "gv katong": "10", 
+        "gv yishun": "01", 
+        "gv@ capitol (stall level 1)": "201",
+        "gv@ capitol (dress level 3)": "203",
+        "0": "204",
+    }
+}
