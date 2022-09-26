@@ -11,7 +11,7 @@
   "devDependencies": {
     "chromedriver": "2.46.0",
     "geckodriver": "^1.16.2",
-    "nightwatch": "^1.1.11",
+    "nightwatch": "^1.7.13",
     "nightwatch-api": "^2.3.0"
   },
   "dependencies": {
