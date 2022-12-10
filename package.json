@@ -15,7 +15,7 @@
     "nightwatch-api": "^2.3.0"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "request-promise": "^4.2.4",
     "terminal-kit": "^1.28.0"
   }
