@@ -17,6 +17,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "request-promise": "^4.2.4",
-    "terminal-kit": "^1.28.0"
+    "terminal-kit": "^2.1.8"
   }
 }
